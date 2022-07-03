@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #4267B2;
+    font: 200;
+    color: aliceblue;
+    line-height: 30px;
+}
+
+/* navbar */
+header{
+    width: 100%;
+    background-color: #4267B2;
+    margin-top: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 100%;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    height: 100%;
+}
+
+.navbar li{
+    margin-left: 2rem;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar div a{
+    text-align: center;
+}
+
+#introduction-paragraph{
+    margin-top: 15px;
+}
+
+/* utilities */
+
+.btn{
+     padding: 10px 20px;
+    display: block;
+    border-radius: 10px;
+}
+
+.btn:hover{
+background-color: darkblue;
+}
+
+#intro{
+    text-align: center;
+    margin: 3rem auto;
+    width: 80%;
+}
+
+#below{
+    display: flex; 
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+#below div{
+    flex: 1;
+    padding: 2rem;
+}
+
+#below img{
+ width: 100%;
+}
+
+#about{
+    display: flex;
+    margin: 30px;
+}
+
+.item{
+padding: 1 rem;
+text-align: center;
+width: 50%;
+}
+
+.item img {
+    width: 70%;
+    margin-top: 20px;
+}
+#description{
+    border-radius: 5px;
+    padding: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img{
+    display: inline;
+}
+
+#whatwedo{
+    margin-top: 30px;
+    max-width: 80%;
+    text-align: center;
+    background-color: #2f3644;
+    justify-content: center;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    padding-top: 56px;
+    text-align: center;
+    margin-left: 30px;
+    align-items: center;
+}
+
+#contact h1{
+    margin-bottom: 1.5rem;
+}
+span{
+    color: black;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+#form{
+    width: 100%
+
+}
+@media(max-width: 500px){
+    header{
+        width: 100vw;
+    }
+}
